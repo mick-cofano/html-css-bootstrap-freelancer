@@ -1,0 +1,18 @@
+.navbar {
+  background: #2C3E50;
+  height: 80px;
+}
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  background: #1ABC9C;
+}
+.jumbotron > img {
+  width: 250px;
+  height: 250px;
+}
+
+.portfolio {
+  text-align: center;
+}
