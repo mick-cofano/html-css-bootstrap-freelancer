@@ -18,16 +18,41 @@
 
 .portfolio-imgs > img {
   width: 100%;
-  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .about {
   text-align: left;
   color: white;
-  background: #1ABC9C;
 }
 
 .bg-green {
   background: #1ABC9C;
   color: white;
+}
+
+.contact-me-utility {
+  height: 80px;
+  border-top: 1px solid grey;
+  line-height: 80px;
+}
+
+.message {
+  margin-bottom: 150px;
+}
+
+.bg-blue {
+  padding-top: 50px;
+  background: #3A546D;
+  color: white;
+  height: 200px;
+  text-align: center;
+}
+
+.bg-violet {
+  padding-top: 25px;
+  background: #2C3E50;
+  text-align: center;
+  color: white;
+  height: 100px;
 }
