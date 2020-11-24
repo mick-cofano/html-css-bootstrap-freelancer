@@ -26,9 +26,8 @@
   content: "";
   display: inline-block;
   height: 3px;
-  position: relative;
   vertical-align: middle;
-  width: 10%;
+  width: 200px;
   margin-bottom: 30px;
 }
 /* ----- UTILITY ----- */
@@ -40,7 +39,11 @@
   margin-bottom: 30px;
 }
 
-.about {
+.about-1 {
+  color: white;
+}
+
+.about-2 {
   color: white;
 }
 
