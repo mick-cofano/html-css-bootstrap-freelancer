@@ -1,4 +1,28 @@
 /* HEADER */
+.bl-navbar {
+  background-color: #2c3e50;
+  color: #fff;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: none;
+}
+
+.bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
+  color: #fff;
+}
+
+.bl-navbar .navbar-brand {
+  font-size:24px;
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-nav>li>a {
+  font-weight: bolder;
+}
+
+.bl-navbar .navbar-brand:hover, .bl-navbar .navbar-nav>li>a:hover {
+  color: #1ABC9C;
+}
 
 .jumbotron {
   text-align: center;
@@ -29,6 +53,11 @@
 .white-color {
   color: white;
 }
+
+.bg-green {
+  background: #1ABC9C;
+  color: white;
+}
 /* ----- UTILITY ----- */
 
 
@@ -38,10 +67,7 @@
   margin-bottom: 30px;
 }
 
-.bg-green {
-  background: #1ABC9C;
-  color: white;
-}
+
 
 
 /* ----- CONTACT ME FORM ----- */
