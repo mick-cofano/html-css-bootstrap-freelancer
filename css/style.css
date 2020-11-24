@@ -30,6 +30,10 @@
   width: 200px;
   margin-bottom: 30px;
 }
+
+.white-color {
+  color: white;
+}
 /* ----- UTILITY ----- */
 
 
@@ -39,47 +43,67 @@
   margin-bottom: 30px;
 }
 
-.about-1 {
-  color: white;
-}
-
-.about-2 {
-  color: white;
-}
-
 .bg-green {
   background: #1ABC9C;
   color: white;
 }
 
-.contact-me-utility {
+
+/* ----- CONTACT ME FORM ----- */
+.bl-form{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.bl-form ::placeholder, .bl-form input, .bl-form textarea{
+  color: #2c3e50;
+  font-size: 19px;
+}
+
+.bl-form .form-group{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.bl-form input, .bl-form textarea{
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding-left: 0;
+}
+
+.contact-me-button {
   height: 80px;
-  border-top: 1px solid grey;
   line-height: 80px;
+  margin-bottom: 50px;
 }
 
-.message {
-  margin-bottom: 150px;
+.contact-me-button button {
+  background-color: #1ABC9C;
 }
 
-.bg-blue {
+.download-button {
+  background-color: #1ABC9C;
+  margin: 50px 0;
+}
+.download-button i {
+  padding-right: 10px;
+}
+/* ----- CONTACT ME FORM ----- */
+
+/* ----- FOOTER ----- */
+.blue-footer {
   padding-top: 20px;
   background: #3A546D;
-  color: white;
   height: 400px;
   text-align: center;
 }
 
-.bg-violet {
+.violet-footer {
   padding-top: 25px;
   background: #2C3E50;
   text-align: center;
-  color: white;
   height: 100px;
-}
-
-.btn-default {
-  margin-bottom: 30px;
 }
 
 .border-icons {
@@ -90,3 +114,4 @@
   width: 60px;
   margin: 10px;
 }
+/* ----- FOOTER ----- */
